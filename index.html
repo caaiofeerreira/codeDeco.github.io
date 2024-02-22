@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>deCodeficador</title>
+</head>
+<body>
+  
+  <header class="header">
+    <img class="header-logo" src="imgs/logo-codedeco.png" alt="Logo code deco" srcset="">
+  </header>
+
+  <main class="main">
+      <div class="main-codificador">
+
+          <textarea wrap="hard" id="input" placeholder="Digite seu texto" class="main-codificador-texto"></textarea>
+          <p class="codificador-aviso">Apenas letras minúsculas e sem acento!</p>
+          
+          <div class="main-btn-criptografia">
+              <button id="codificador" class="main-btn">Codificar</button>
+              <button id="decodificador" class="main-btn">Decodificar</button>
+          </div>
+
+      </div>
+
+      <div class="main-resultado">
+
+          <textarea wrap="hard" id="output" readonly placeholder="Texto codificado/decodificado" class="main-texto-resultado"></textarea>
+
+          <div class="main-btns">
+            <button id="copiar" class="main-btn">Copiar</button>
+            <button class="main-btn" id="limpar">Limpar campos
+            </button>
+          </div>
+
+      </div>
+
+  </main>
+
+  <footer class="footer">
+    <p>Desenvolvido por caaiofeerreira</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
